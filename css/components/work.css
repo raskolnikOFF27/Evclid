@@ -1,0 +1,137 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.how-work__container {
+  position: relative;
+}
+
+.how-work-title {
+  margin-top: 98px;
+  margin-bottom: 50px;
+}
+
+.how-work__steps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 45px;
+}
+
+.how-work__steps-item:not(:last-child) {
+  margin-right: 81px;
+}
+
+.how-work__steps-item-link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--black);
+}
+
+.orange-link {
+  color: var(--orange);
+}
+
+.how-work__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.how-work__left {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.how-work__left-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+
+  margin-bottom: 9px;
+}
+
+.how-work__left-descr {
+  margin-bottom: 13px;
+
+  max-width: 758px;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+/* .how-work__left {
+  background-image: url(../../img/work-bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 49% 100%;
+} */
+
+.how-work__left__butotns-item {
+  cursor: pointer;
+  padding: 16px 38px;
+  text-align: center;
+}
+
+.how-work__left__button-right {
+  cursor: pointer;
+  max-width: 147px;
+  margin-left: 32px;
+  min-height: 58px;
+  padding: 20px 38px;
+  border: 1px solid var(--black);
+  border-radius: 16px;
+
+  -webkit-transition: 0.3s ease-in-out;
+
+  -o-transition: 0.3s ease-in-out;
+
+  transition: 0.3s ease-in-out;
+}
+
+.how-work__left__button-right:focus-visible {
+  background-color: var(--dark-light);
+  color: var(--white);
+  border-color: var(--dark-light);
+}
+
+.how-work__left__button-right:hover {
+  background-color: var(--dark-light);
+  color: var(--white);
+  border-color: var(--dark-light);
+}
+
+.how-work__left__button-right:active {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.how-work__right {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url("../../img/hero-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.work__pictures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-left: 133px;
+}

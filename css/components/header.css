@@ -1,0 +1,118 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.header {
+  background-color: var(--white);
+  border-radius: 0px 0px 32px 32px;
+  -webkit-box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+  padding: 14px 0;
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+
+}
+
+.header__logo {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.nav {
+  margin-left: 31.5%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__menu__list-item:not(:first-child) {
+  margin-left: 81px;
+}
+
+.header__menu__list-item__link {
+  position: relative;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--black);
+  text-decoration: none;
+}
+
+.header__menu-btn {
+  position: relative;
+
+  margin-left: auto;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out border ;
+  -o-transition: 0.3s ease-in-out border ;
+  transition: 0.3s ease-in-out border ;
+
+  border: 2px solid transparent;
+
+}
+
+.header__svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.header__menu-btn svg path,
+.header__menu-btn svg rect {
+  -webkit-transition: fill 0.3s ease-in-out, stroke 0.3s ease-in-out;
+  -o-transition: fill 0.3s ease-in-out, stroke 0.3s ease-in-out;
+  transition: fill 0.3s ease-in-out, stroke 0.3s ease-in-out;
+}
+
+.header__menu-btn:focus-visible {
+  border-color: var(--orange);
+}
+
+.header__menu-btn:hover svg path {
+  stroke: var(--orange);
+}
+
+.header__menu-btn:hover svg rect {
+  fill: var(--orange);
+}
+
+.header__menu-btn:active svg path {
+  stroke: var(--orange-active);
+}
+
+.header__menu-btn:active svg rect {
+  fill: var(--orange-active);
+}
+
+.header__menu-link {
+  border: none;
+  outline: none;
+}
+

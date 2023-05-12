@@ -1,0 +1,215 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.about-descr {
+  margin-top: 20px;
+  max-width: 1235px;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0em;
+}
+
+.about__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.about__left {
+  margin-right: 32px;
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+
+  width: 100%;
+  max-width: 868px;
+  background-image: url('../../img/about-left-img.png');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 32px;
+}
+
+.about__left__info {
+  width: 100%;
+  padding: 51px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: var(--dark-opacity);
+  color: var(--white);
+  border-radius: inherit;
+}
+
+.about__left__info-descr {
+  max-width: 433px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.about__left__info-button {
+  position: relative;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 17px 35px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 ;
+          flex: 0 0 ;
+  min-height: 60px;
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: var(--white);
+  border: 3px solid var(--orange);
+  border-radius: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+
+  -webkit-transition: 0.3s ease-in-out;
+
+  -o-transition: 0.3s ease-in-out;
+
+  transition: 0.3s ease-in-out;
+}
+
+.about__left__info-button:focus-visible {
+  background-color: var(--orange);
+}
+
+.about__left__info-button:hover {
+  background-color: var(--orange);
+}
+
+.about__left__info-button:active {
+  background-color: var(--orange-active);
+  border-color: var(--orange-active);
+}
+
+
+/* .about__left__info-button {
+  align-self: flex-start;
+  cursor: pointer;
+  width: fit-content;
+  padding: 20px 38px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: var(--white);
+  border: 3px solid var(--orange);
+  border-radius: 16px;
+  box-sizing: border-box;
+} */
+
+/*
+.кнопка {
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 10px;
+flex: 0 0 число;
+min-height: число;
+} */
+
+/* about-right */
+
+.about__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+
+  width: 44%;
+}
+
+.about__right__block {
+  width: 100%;
+  padding: 63px 0 64px 59px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid var(--gray);
+  border-radius: 32px;
+  max-width: 870px;
+}
+
+.about__right__block:first-child {
+  margin-bottom: 32px;
+}
+
+.about__right__block-image {
+  margin-right: 50px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: 190px;
+  height: 165px;
+  background-image: url('../../img/Frame-12.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.--about-image-first {
+  background-image: url('../../img/Frame-16.png');
+}
+
+.--about-image-second {
+  background-image: url('../../img/Frame-12.png');
+}
+
+.about__right__block__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about__right__block__content-title {
+  max-width: 452px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+}
+
+.about__right__block__content-descr {
+  margin-top: 10px;
+  max-width: 450px;
+  font-size: 16px;
+  line-height: 32px;
+}

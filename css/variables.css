@@ -1,0 +1,15 @@
+:root {
+  --white: #fff;
+
+  --black: #000;
+  --dark: #414141;
+  --dark-light: #666666;
+  --dark-opacity: rgba(0, 0, 0, 0.5);
+  --gray: #cacaca;
+
+  --orange: #FF9900;
+  --orange-hover: #FFB84D;
+  --orange-active: #E1670E;
+
+  --green: #97EE3F;
+}

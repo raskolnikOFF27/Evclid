@@ -1,0 +1,157 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.questions__container {
+  max-width: 1770px;
+  width: 100%;
+}
+
+.questions__title {
+  margin-top: 111px;
+  margin-bottom: 32px;
+
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+}
+
+.elements__list {
+  width: 100%;
+}
+
+.elements__descr {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+
+.elements__item {
+  padding: 27px 0;
+  border-top: 1px solid #cacaca;
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.elements__svg {
+  background-color: var(--gray);
+  border-radius: 50%;
+  padding: 10px 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+
+  position: relative;
+
+  -webkit-transition: 0.3s ease-in-out;
+
+  -o-transition: 0.3s ease-in-out;
+
+  transition: 0.3s ease-in-out;
+}
+
+/* .elements__btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+} */
+
+.elements__btn:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  -webkit-transition: border-top 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+  -o-transition: border-top 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+  transition: border-top 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+}
+
+.elements__btn:active {
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+.elements__item:last-child {
+  border-bottom: 1px solid #cacaca;
+  margin-bottom: 100px;
+}
+
+.elements__item:focus-visible {
+  border-top: 1px solid orange;
+  color: var(--orange);
+}
+
+.elements__item:focus-visible svg ellipse {
+  fill: var(--orange);
+}
+
+.elements__item:hover {
+  border-top: 1px solid orange;
+  color: var(--orange);
+}
+
+.elements__item:hover + .elements__item {
+  border-top: 1px solid orange;
+}
+
+.elements__item:last-child:hover {
+  border-bottom: 1px solid orange;
+}
+
+.elements__item:hover button {
+  background-color: var(--orange);
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.elements__svg:hover {
+  background-color: var(--orange);
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.elements__item:hover svg path {
+  fill: var(--white);
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+
+
